@@ -1,0 +1,354 @@
+{
+  "inventoryVersion": "1.0.0",
+  "lastUpdated": "2026-10-12",
+  "brandName": "BAJA WEB CO.",
+  "abbreviation": "BWC",
+
+  "logo": {
+    "primary": {
+      "filename": "logo-primary.png",
+      "path": "/images/brand/logo/logo-primary.png",
+      "format": "PNG",
+      "dimensions": "400x400px",
+      "colorMode": "RGBA",
+      "transparency": true,
+      "fileSize": "~50KB",
+      "status": "✅ Active",
+      "dateAdded": "2026-10-12",
+      "useCases": [
+        "Website header",
+        "Hero section",
+        "Footer",
+        "Brand materials",
+        "Official documentation"
+      ],
+      "minSize": "80x80px",
+      "colors": ["#004B87", "#00BCD4"],
+      "backgroundColor": "Transparent",
+      "approved": true,
+      "notes": "Logotipo oficial - Versión transparente. Fuente: gallery/baja_web_co_transparent.png"
+    },
+
+    "variants": {
+      "dark": {
+        "filename": "logo-dark.png",
+        "path": "/images/brand/logo/logo-dark.png",
+        "format": "PNG",
+        "status": "⏳ TODO",
+        "priority": "High",
+        "description": "Variant for light backgrounds. Enhanced contrast version.",
+        "targetSize": "400x400px",
+        "colors": ["#004B87", "#00BCD4"],
+        "notes": "Awaiting design/creation"
+      },
+
+      "light": {
+        "filename": "logo-light.png",
+        "path": "/images/brand/logo/logo-light.png",
+        "format": "PNG",
+        "status": "⏳ TODO",
+        "priority": "High",
+        "description": "Variant for dark backgrounds. White or light colors version.",
+        "targetSize": "400x400px",
+        "colors": ["#FFFFFF", "#00BCD4"],
+        "notes": "Awaiting design/creation"
+      },
+
+      "mono": {
+        "filename": "logo-mono.png",
+        "path": "/images/brand/logo/logo-mono.png",
+        "format": "PNG",
+        "status": "⏳ TODO",
+        "priority": "Medium",
+        "description": "Monochromatic version - Black and white / Grayscale",
+        "targetSize": "400x400px",
+        "colors": ["#000000", "#FFFFFF"],
+        "usage": "Print materials, restricted color applications",
+        "notes": "For situations requiring single color or grayscale"
+      },
+
+      "square": {
+        "filename": "logo-square.png",
+        "path": "/images/brand/logo/logo-square.png",
+        "format": "PNG",
+        "status": "⏳ TODO",
+        "priority": "High",
+        "description": "Square version for favicon and profile pictures",
+        "targetSize": "256x256px",
+        "minSize": "32x32px",
+        "usage": [
+          "Favicon",
+          "Profile pictures",
+          "Social media avatars",
+          "Square layouts",
+          "App icons"
+        ],
+        "colors": ["#004B87", "#00BCD4"],
+        "notes": "Critical for web appearance. Should include favicon variations (16x16, 32x32)"
+      }
+    }
+  },
+
+  "social": {
+    "facebook": {
+      "cover": {
+        "filename": "facebook-cover.png",
+        "path": "/images/brand/social/facebook-cover.png",
+        "format": "PNG/JPG",
+        "status": "⏳ TODO",
+        "priority": "Low",
+        "recommendedSize": "820x312px",
+        "description": "Facebook page cover image",
+        "source": "To recover from Facebook page",
+        "url": "https://www.facebook.com/share/1Dzfsqov99/?mibextid=wwXIfr",
+        "notes": "Requires access to BAJA WEB CO. Facebook page"
+      },
+
+      "profile": {
+        "filename": "facebook-profile.png",
+        "path": "/images/brand/social/facebook-profile.png",
+        "format": "PNG/JPG",
+        "status": "⏳ TODO",
+        "priority": "Low",
+        "recommendedSize": "170x170px",
+        "description": "Facebook profile picture",
+        "source": "To recover from Facebook page",
+        "url": "https://www.facebook.com/share/1Dzfsqov99/?mibextid=wwXIfr",
+        "notes": "Should be circular or fit well in circle"
+      }
+    },
+
+    "instagram": {
+      "profile": {
+        "filename": "instagram-profile.png",
+        "path": "/images/brand/social/instagram-profile.png",
+        "format": "PNG",
+        "status": "⏳ TODO",
+        "priority": "Low",
+        "recommendedSize": "110x110px",
+        "description": "Instagram profile picture",
+        "notes": "To be confirmed if Instagram account exists"
+      }
+    }
+  },
+
+  "graphics": {
+    "decorative": {
+      "wave": {
+        "filename": "wave-pattern.svg",
+        "path": "/images/brand/graphics/wave-pattern.svg",
+        "format": "SVG",
+        "status": "⏳ TODO",
+        "priority": "Medium",
+        "description": "Wave pattern element - Decorative element inspired by ocean waves",
+        "usage": [
+          "Hero section background",
+          "Section dividers",
+          "Decorative elements",
+          "Borders and accents"
+        ],
+        "colors": ["#00BCD4", "#004B87"],
+        "notes": "Extracted from logo wave element. Should be reusable and scalable."
+      },
+
+      "map": {
+        "filename": "map-pattern.svg",
+        "path": "/images/brand/graphics/map-pattern.svg",
+        "format": "SVG",
+        "status": "⏳ TODO",
+        "priority": "Medium",
+        "description": "Baja California map element - Stylized map for branding",
+        "usage": [
+          "Background elements",
+          "Section backgrounds",
+          "Location indicator",
+          "Regional branding"
+        ],
+        "colors": ["#004B87", "#00BCD4", "#FFFFFF"],
+        "notes": "Extracted from logo. Represents geographical region of BAJA WEB CO."
+      }
+    }
+  },
+
+  "demonstrations": {
+    "accounting": {
+      "name": "García & Asociados - Despacho Contable",
+      "files": [
+        {
+          "filename": "Despacho-Contable-1-2026.PNG",
+          "path": "/images/demo/Despacho-Contable-1-2026.PNG",
+          "format": "PNG",
+          "type": "Screenshot/Reference",
+          "status": "✅ Available",
+          "dateAdded": "2026-10-12",
+          "usage": "Design reference for accounting firm demonstration",
+          "source": "gallery/Despacho-Contable-1-2026.PNG"
+        },
+        {
+          "filename": "Despacho-Contable-2-2026.PNG",
+          "path": "/images/demo/Despacho-Contable-2-2026.PNG",
+          "format": "PNG",
+          "type": "Screenshot/Reference",
+          "status": "✅ Available",
+          "dateAdded": "2026-10-12",
+          "usage": "Alternative design reference for accounting demonstration",
+          "source": "gallery/Despacho-Contable-2-2026.PNG"
+        },
+        {
+          "filename": "IMG_9810.jpg",
+          "path": "/images/demo/IMG_9810.jpg",
+          "format": "JPG",
+          "type": "Screenshot",
+          "status": "✅ Available",
+          "dateAdded": "2026-10-12",
+          "usage": "Responsive design reference (desktop and mobile mockup)",
+          "source": "gallery/IMG_9810.jpg",
+          "description": "Shows García & Asociados on tablet and mobile devices"
+        }
+      ]
+    },
+
+    "legal": {
+      "name": "Despacho Jurídico / Despacho Legal",
+      "files": [
+        {
+          "filename": "Despacho-Juridico-2026.PNG",
+          "path": "/images/demo/Despacho-Juridico-2026.PNG",
+          "format": "PNG",
+          "type": "Screenshot/Reference",
+          "status": "✅ Available",
+          "dateAdded": "2026-10-12",
+          "usage": "Design reference for legal services demonstration",
+          "source": "gallery/Despacho-Juridico-2026.PNG"
+        },
+        {
+          "filename": "Despacho-Legal-2026.PNG",
+          "path": "/images/demo/Despacho-Legal-2026.PNG",
+          "format": "PNG",
+          "type": "Screenshot/Reference",
+          "status": "✅ Available",
+          "dateAdded": "2026-10-12",
+          "usage": "Alternative reference for legal services demonstration",
+          "source": "gallery/Despacho-Legal-2026.PNG",
+          "notes": "May be variation or update of Despacho-Juridico"
+        }
+      ]
+    },
+
+    "realEstate": {
+      "name": "Inmobiliaria",
+      "files": [
+        {
+          "filename": "Inmobiliaria-1-2026.PNG",
+          "path": "/images/demo/Inmobiliaria-1-2026.PNG",
+          "format": "PNG",
+          "type": "Screenshot/Reference",
+          "status": "✅ Available",
+          "dateAdded": "2026-10-12",
+          "usage": "Design reference for real estate demonstration",
+          "source": "gallery/Inmobiliaria-1-2026.PNG"
+        }
+      ]
+    },
+
+    "restaurant": {
+      "name": "Restaurante",
+      "status": "⏳ TODO",
+      "priority": "Medium",
+      "notes": "Restaurant demonstration not yet implemented"
+    }
+  },
+
+  "summary": {
+    "totalFiles": 8,
+    "availableAssets": 8,
+    "todoAssets": 8,
+    "brandLogoVariants": {
+      "available": 1,
+      "pending": 4
+    },
+    "socialAssets": {
+      "available": 0,
+      "pending": 3
+    },
+    "graphicAssets": {
+      "available": 0,
+      "pending": 2
+    },
+    "demonstrationAssets": {
+      "available": 5,
+      "pending": 1
+    },
+    "completeness": "37.5%"
+  },
+
+  "directories": {
+    "public/images/brand/logo": {
+      "path": "/images/brand/logo/",
+      "status": "✅ Created",
+      "description": "Logo files - primary and variants"
+    },
+    "public/images/brand/social": {
+      "path": "/images/brand/social/",
+      "status": "✅ Created",
+      "description": "Social media assets (covers, profiles)"
+    },
+    "public/images/brand/graphics": {
+      "path": "/images/brand/graphics/",
+      "status": "✅ Created",
+      "description": "Decorative graphics and patterns"
+    },
+    "public/images/demo": {
+      "path": "/images/demo/",
+      "status": "✅ Created",
+      "description": "Demonstration screenshots and references"
+    }
+  },
+
+  "nextSteps": [
+    {
+      "step": 1,
+      "task": "Retrieve Facebook page information",
+      "url": "https://www.facebook.com/share/1Dzfsqov99/?mibextid=wwXIfr",
+      "priority": "High",
+      "description": "Access Facebook page to recover profile and cover images, confirm contact info"
+    },
+    {
+      "step": 2,
+      "task": "Create logo variants",
+      "assets": ["logo-dark.png", "logo-light.png", "logo-square.png"],
+      "priority": "High",
+      "description": "Design and create missing logo variants for different backgrounds"
+    },
+    {
+      "step": 3,
+      "task": "Extract decorative elements",
+      "assets": ["wave-pattern.svg", "map-pattern.svg"],
+      "priority": "Medium",
+      "description": "Create reusable SVG patterns from logo elements"
+    },
+    {
+      "step": 4,
+      "task": "Create brand guidelines documentation",
+      "file": "docs/brand-guidelines.md",
+      "priority": "High",
+      "description": "Complete brand guidelines with usage rules and examples"
+    },
+    {
+      "step": 5,
+      "task": "Set up CSS variables",
+      "file": "src/styles/brand-tokens.css",
+      "priority": "High",
+      "description": "Create CSS custom properties for colors and typography"
+    }
+  ],
+
+  "references": {
+    "brandConfig": "src/config/brand.config.ts",
+    "brandColors": "src/config/brand-colors.json",
+    "brandTypography": "src/config/brand-typography.json",
+    "auditReport": "BRAND_AUDIT_REPORT.md",
+    "brandGuidelines": "docs/brand-guidelines.md",
+    "facebookPage": "https://www.facebook.com/share/1Dzfsqov99/?mibextid=wwXIfr"
+  }
+}

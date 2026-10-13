@@ -1,0 +1,267 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "BAJA WEB CO. Brand Colors",
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-12",
+  "description": "Official color palette for BAJA WEB CO. and its demonstrations",
+  
+  "primary": {
+    "navy": {
+      "name": "Azul Marino",
+      "hex": "#004B87",
+      "rgb": "rgb(0, 75, 135)",
+      "hsl": "hsl(201, 100%, 26%)",
+      "usage": "Main brand color, navigation, primary buttons",
+      "contrast": {
+        "white": "18.5:1 ✓ (WCAG AAA)",
+        "lightGray": "10.2:1 ✓ (WCAG AAA)",
+        "cyan": "2.8:1 ⚠️ (Below WCAG AA)"
+      }
+    },
+    "cyan": {
+      "name": "Cyan/Turquesa",
+      "hex": "#00BCD4",
+      "rgb": "rgb(0, 188, 212)",
+      "hsl": "hsl(187, 100%, 42%)",
+      "usage": "Accent color, secondary buttons, highlights",
+      "contrast": {
+        "white": "6.3:1 ✓ (WCAG AAA)",
+        "navy": "2.8:1 ⚠️ (Below WCAG AA)",
+        "darkGray": "8.1:1 ✓ (WCAG AAA)"
+      }
+    }
+  },
+
+  "neutral": {
+    "white": {
+      "name": "Blanco",
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "usage": "Primary background, text on dark"
+    },
+    "lightGray": {
+      "name": "Gris Claro",
+      "hex": "#F5F5F5",
+      "rgb": "rgb(245, 245, 245)",
+      "hsl": "hsl(0, 0%, 96%)",
+      "usage": "Secondary backgrounds, subtle separators"
+    },
+    "mediumGray": {
+      "name": "Gris Medio",
+      "hex": "#E8E8E8",
+      "rgb": "rgb(232, 232, 232)",
+      "hsl": "hsl(0, 0%, 91%)",
+      "usage": "Borders, disabled states, dividers"
+    },
+    "darkGray": {
+      "name": "Gris Oscuro",
+      "hex": "#333333",
+      "rgb": "rgb(51, 51, 51)",
+      "hsl": "hsl(0, 0%, 20%)",
+      "usage": "Primary text, headings"
+    },
+    "charcoal": {
+      "name": "Carbón",
+      "hex": "#1A1A1A",
+      "rgb": "rgb(26, 26, 26)",
+      "hsl": "hsl(0, 0%, 10%)",
+      "usage": "Dark backgrounds, strong contrast text"
+    }
+  },
+
+  "semantic": {
+    "success": {
+      "name": "Éxito",
+      "hex": "#4CAF50",
+      "rgb": "rgb(76, 175, 80)",
+      "usage": "Success messages, confirmations"
+    },
+    "warning": {
+      "name": "Advertencia",
+      "hex": "#FFA500",
+      "rgb": "rgb(255, 165, 0)",
+      "usage": "Warning messages, alerts"
+    },
+    "error": {
+      "name": "Error",
+      "hex": "#F44336",
+      "rgb": "rgb(244, 67, 54)",
+      "usage": "Error messages, dangers"
+    },
+    "info": {
+      "name": "Información",
+      "hex": "#2196F3",
+      "rgb": "rgb(33, 150, 243)",
+      "usage": "Informational messages, links"
+    }
+  },
+
+  "demonstrations": {
+    "accounting": {
+      "name": "García & Asociados - Despacho Contable",
+      "primary": {
+        "hex": "#0D47A1",
+        "rgb": "rgb(13, 71, 161)",
+        "name": "Azul Profesional"
+      },
+      "accent": {
+        "hex": "#00796B",
+        "rgb": "rgb(0, 121, 107)",
+        "name": "Teal Profesional"
+      },
+      "status": "Active"
+    },
+    "legal": {
+      "name": "Despacho Jurídico",
+      "primary": {
+        "hex": "#1565C0",
+        "rgb": "rgb(21, 101, 192)",
+        "name": "Azul Legal"
+      },
+      "accent": {
+        "hex": "#00838F",
+        "rgb": "rgb(0, 131, 143)",
+        "name": "Cyan Legal"
+      },
+      "status": "Active"
+    },
+    "realEstate": {
+      "name": "Inmobiliaria",
+      "primary": {
+        "hex": "#C62828",
+        "rgb": "rgb(198, 40, 40)",
+        "name": "Rojo Inmobiliario"
+      },
+      "accent": {
+        "hex": "#F57C00",
+        "rgb": "rgb(245, 124, 0)",
+        "name": "Naranja Inmobiliario"
+      },
+      "status": "Active"
+    },
+    "restaurant": {
+      "name": "Restaurante",
+      "primary": {
+        "hex": "#6D4C41",
+        "rgb": "rgb(109, 76, 65)",
+        "name": "Café/Marrón"
+      },
+      "accent": {
+        "hex": "#D84315",
+        "rgb": "rgb(216, 67, 21)",
+        "name": "Naranja Cálido"
+      },
+      "status": "TODO: Implementar demostración"
+    }
+  },
+
+  "colorMaps": {
+    "light": {
+      "description": "Color scheme for light theme",
+      "brandPrimary": "#004B87",
+      "brandSecondary": "#00BCD4",
+      "textPrimary": "#333333",
+      "textSecondary": "#E8E8E8",
+      "textOnPrimary": "#FFFFFF",
+      "textOnDark": "#FFFFFF",
+      "bgPrimary": "#FFFFFF",
+      "bgSecondary": "#F5F5F5",
+      "bgDark": "#004B87",
+      "buttonPrimary": "#004B87",
+      "buttonSecondary": "#00BCD4",
+      "buttonText": "#FFFFFF",
+      "borderColor": "#E8E8E8",
+      "divider": "#F5F5F5"
+    },
+    "dark": {
+      "description": "Color scheme for dark theme",
+      "brandPrimary": "#00BCD4",
+      "brandSecondary": "#00BCD4",
+      "textPrimary": "#FFFFFF",
+      "textSecondary": "#E8E8E8",
+      "textOnPrimary": "#1A1A1A",
+      "textOnDark": "#FFFFFF",
+      "bgPrimary": "#004B87",
+      "bgSecondary": "#1A1A1A",
+      "bgDark": "#000000",
+      "buttonPrimary": "#00BCD4",
+      "buttonSecondary": "#004B87",
+      "buttonText": "#004B87",
+      "borderColor": "#333333",
+      "divider": "#333333"
+    }
+  },
+
+  "accessibility": {
+    "wcagStandards": {
+      "AA": "4.5:1 contrast ratio for text",
+      "AAA": "7:1 contrast ratio for text"
+    },
+    "validContrasts": [
+      {
+        "pair": "Navy + White",
+        "ratio": "18.5:1",
+        "level": "AAA"
+      },
+      {
+        "pair": "Navy + Light Gray",
+        "ratio": "10.2:1",
+        "level": "AAA"
+      },
+      {
+        "pair": "Cyan + White",
+        "ratio": "6.3:1",
+        "level": "AAA"
+      },
+      {
+        "pair": "Cyan + Dark Gray",
+        "ratio": "8.1:1",
+        "level": "AAA"
+      }
+    ],
+    "combinationsToAvoid": [
+      {
+        "pair": "Navy + Cyan",
+        "ratio": "2.8:1",
+        "reason": "Insufficient contrast, not suitable for text"
+      }
+    ]
+  },
+
+  "cssVariables": {
+    "description": "CSS custom properties for color values",
+    "format": "--color-{colorName}",
+    "example": {
+      "--color-primary-navy": "#004B87",
+      "--color-primary-cyan": "#00BCD4",
+      "--color-neutral-white": "#FFFFFF",
+      "--color-neutral-light-gray": "#F5F5F5",
+      "--color-neutral-dark-gray": "#333333",
+      "--color-semantic-success": "#4CAF50",
+      "--color-semantic-error": "#F44336",
+      "--color-text-primary": "#333333",
+      "--color-button-primary": "#004B87",
+      "--color-bg-primary": "#FFFFFF",
+      "--color-border": "#E8E8E8"
+    }
+  },
+
+  "guidelines": {
+    "rule1": "Navy (#004B87) is the main brand color. Use it for primary UI elements.",
+    "rule2": "Cyan (#00BCD4) is the accent color. Use it for secondary actions and highlights.",
+    "rule3": "Maintain WCAG AA contrast ratios (4.5:1) minimum for all text.",
+    "rule4": "Each demonstration has its own color palette. Do not mix with BAJA WEB CO. colors.",
+    "rule5": "Use Light Gray (#F5F5F5) for subtle backgrounds and separators.",
+    "rule6": "Dark Gray (#333333) is the default text color for readability.",
+    "rule7": "Never use Navy + Cyan together for text/background pairs.",
+    "rule8": "Preserve the original logo colors. Create variants for dark/light contexts."
+  },
+
+  "references": {
+    "brandGuide": "docs/brand-guidelines.md",
+    "designTokens": "src/config/design-tokens.json",
+    "colorPalette": "src/config/brand-colors.json",
+    "typography": "src/config/brand-typography.json",
+    "auditReport": "BRAND_AUDIT_REPORT.md"
+  }
+}

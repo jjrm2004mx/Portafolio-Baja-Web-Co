@@ -1,0 +1,333 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "BAJA WEB CO. Typography System",
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-12",
+  "description": "Official typography specifications for BAJA WEB CO.",
+
+  "fontFamilies": {
+    "primary": {
+      "name": "Inter",
+      "origin": "Google Fonts",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap",
+      "weights": [300, 400, 500, 600, 700, 800],
+      "usage": "Primary font for all elements",
+      "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "isVariable": false,
+      "recommended": true
+    },
+    "secondary": {
+      "name": "Poppins",
+      "origin": "Google Fonts",
+      "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap",
+      "weights": [300, 400, 500, 600, 700],
+      "usage": "Alternative for headings or branding (optional)",
+      "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "isVariable": false,
+      "recommended": false
+    },
+    "monospace": {
+      "name": "Monaco / Courier New",
+      "origin": "System",
+      "usage": "Code blocks and technical content",
+      "fallback": "'Courier New', monospace"
+    }
+  },
+
+  "fontWeights": {
+    "light": {
+      "value": 300,
+      "name": "Light",
+      "usage": "Rarely used, only for secondary information"
+    },
+    "regular": {
+      "value": 400,
+      "name": "Regular",
+      "usage": "Body text, paragraphs, default weight"
+    },
+    "medium": {
+      "value": 500,
+      "name": "Medium",
+      "usage": "Navigation items, labels, emphasis"
+    },
+    "semibold": {
+      "value": 600,
+      "name": "Semibold",
+      "usage": "Headings, buttons, stronger emphasis"
+    },
+    "bold": {
+      "value": 700,
+      "name": "Bold",
+      "usage": "Main headings, strong emphasis"
+    },
+    "extrabold": {
+      "value": 800,
+      "name": "Extrabold",
+      "usage": "Very strong emphasis (use sparingly)"
+    }
+  },
+
+  "typographicScale": {
+    "h1": {
+      "name": "Hero Title",
+      "element": "h1",
+      "fontSize": "48px",
+      "lineHeight": "1.2",
+      "letterSpacing": "-0.5px",
+      "fontWeight": 700,
+      "marginTop": "0px",
+      "marginBottom": "24px",
+      "usage": "Main page title, hero section",
+      "example": "Soluciones web para el crecimiento"
+    },
+    "h2": {
+      "name": "Section Title",
+      "element": "h2",
+      "fontSize": "36px",
+      "lineHeight": "1.3",
+      "letterSpacing": "-0.3px",
+      "fontWeight": 600,
+      "marginTop": "32px",
+      "marginBottom": "16px",
+      "usage": "Major section headings",
+      "example": "Nuestros Servicios"
+    },
+    "h3": {
+      "name": "Subsection Title",
+      "element": "h3",
+      "fontSize": "28px",
+      "lineHeight": "1.4",
+      "letterSpacing": "0px",
+      "fontWeight": 600,
+      "marginTop": "24px",
+      "marginBottom": "12px",
+      "usage": "Subsection headings, cards",
+      "example": "García & Asociados"
+    },
+    "h4": {
+      "name": "Minor Heading",
+      "element": "h4",
+      "fontSize": "24px",
+      "lineHeight": "1.4",
+      "letterSpacing": "0px",
+      "fontWeight": 600,
+      "marginTop": "20px",
+      "marginBottom": "8px",
+      "usage": "Card titles, feature titles",
+      "example": "Asesoría Fiscal"
+    },
+    "bodyLarge": {
+      "name": "Body Large",
+      "element": "p",
+      "fontSize": "18px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0px",
+      "fontWeight": 400,
+      "marginBottom": "16px",
+      "usage": "Large body text, introductions",
+      "example": "Ofrecemos soluciones profesionales..."
+    },
+    "body": {
+      "name": "Body Regular",
+      "element": "p",
+      "fontSize": "16px",
+      "lineHeight": "1.6",
+      "letterSpacing": "0px",
+      "fontWeight": 400,
+      "marginBottom": "16px",
+      "usage": "Default paragraph text",
+      "example": "Cumplimiento y planeación fiscal."
+    },
+    "bodySmall": {
+      "name": "Body Small",
+      "element": "p",
+      "fontSize": "14px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0px",
+      "fontWeight": 400,
+      "marginBottom": "12px",
+      "usage": "Small body text, descriptions",
+      "example": "Personas físicas y morales"
+    },
+    "caption": {
+      "name": "Caption",
+      "element": "small",
+      "fontSize": "12px",
+      "lineHeight": "1.4",
+      "letterSpacing": "0px",
+      "fontWeight": 500,
+      "marginBottom": "8px",
+      "usage": "Captions, fine print, metadata",
+      "example": "© 2026 BAJA WEB CO."
+    },
+    "button": {
+      "name": "Button Text",
+      "element": "button, .btn",
+      "fontSize": "14px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0px",
+      "fontWeight": 600,
+      "paddingVertical": "12px",
+      "paddingHorizontal": "24px",
+      "usage": "Button labels, calls to action",
+      "example": "Agendar Cita"
+    },
+    "nav": {
+      "name": "Navigation",
+      "element": "nav, .nav-link",
+      "fontSize": "14px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0px",
+      "fontWeight": 500,
+      "usage": "Navigation items, menu links",
+      "example": "Inicio Servicios Blog Contacto"
+    },
+    "overline": {
+      "name": "Overline",
+      "element": ".overline",
+      "fontSize": "11px",
+      "lineHeight": "1.5",
+      "letterSpacing": "1px",
+      "fontWeight": 600,
+      "textTransform": "uppercase",
+      "usage": "Category labels, tags",
+      "example": "DESPACHO CONTABLE"
+    }
+  },
+
+  "lineHeights": {
+    "tight": 1.1,
+    "normal": 1.4,
+    "relaxed": 1.5,
+    "loose": 1.6,
+    "extraLoose": 1.8
+  },
+
+  "letterSpacings": {
+    "tight": "-0.5px",
+    "normal": "0px",
+    "wide": "0.5px",
+    "extraWide": "1px"
+  },
+
+  "cssVariables": {
+    "description": "CSS custom properties for typography",
+    "format": "--font-{name}: {value}",
+    "example": {
+      "--font-family-primary": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "--font-family-secondary": "Poppins, sans-serif",
+      "--font-weight-light": "300",
+      "--font-weight-regular": "400",
+      "--font-weight-medium": "500",
+      "--font-weight-semibold": "600",
+      "--font-weight-bold": "700",
+      "--font-size-h1": "48px",
+      "--font-size-h2": "36px",
+      "--font-size-body": "16px",
+      "--line-height-tight": "1.1",
+      "--line-height-normal": "1.4",
+      "--line-height-relaxed": "1.5",
+      "--letter-spacing-tight": "-0.5px",
+      "--letter-spacing-normal": "0px"
+    }
+  },
+
+  "importStatements": {
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');",
+    "html": "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">",
+    "tailwind": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');",
+    "scss": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');"
+  },
+
+  "htmlPresets": {
+    "cssReset": "html, body { margin: 0; padding: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.6; color: #333333; }",
+    "headingStyles": "h1 { font-size: 48px; font-weight: 700; line-height: 1.2; margin: 0 0 24px 0; } h2 { font-size: 36px; font-weight: 600; line-height: 1.3; margin: 32px 0 16px 0; } h3 { font-size: 28px; font-weight: 600; line-height: 1.4; margin: 24px 0 12px 0; }",
+    "paragraphStyles": "p { font-size: 16px; font-weight: 400; line-height: 1.6; margin: 0 0 16px 0; }",
+    "buttonStyles": "button, .btn { font-size: 14px; font-weight: 600; line-height: 1.5; padding: 12px 24px; border: none; cursor: pointer; }"
+  },
+
+  "responsiveSizes": {
+    "mobile": {
+      "h1": "32px",
+      "h2": "28px",
+      "h3": "24px",
+      "body": "16px",
+      "caption": "12px"
+    },
+    "tablet": {
+      "h1": "40px",
+      "h2": "32px",
+      "h3": "26px",
+      "body": "16px",
+      "caption": "12px"
+    },
+    "desktop": {
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "28px",
+      "body": "16px",
+      "caption": "12px"
+    }
+  },
+
+  "contrast": {
+    "lightMode": {
+      "headings": {
+        "color": "#333333",
+        "background": "#FFFFFF",
+        "ratio": "12.6:1"
+      },
+      "body": {
+        "color": "#333333",
+        "background": "#FFFFFF",
+        "ratio": "12.6:1"
+      }
+    },
+    "darkMode": {
+      "headings": {
+        "color": "#FFFFFF",
+        "background": "#004B87",
+        "ratio": "18.5:1"
+      },
+      "body": {
+        "color": "#FFFFFF",
+        "background": "#1A1A1A",
+        "ratio": "13.6:1"
+      }
+    }
+  },
+
+  "guidelines": {
+    "rule1": "Use Inter as primary font family for all elements.",
+    "rule2": "Maintain consistent line-height ratios based on font size.",
+    "rule3": "Apply proper letter-spacing for headings to improve visual hierarchy.",
+    "rule4": "Ensure 4.5:1 contrast ratio minimum (WCAG AA) for all text.",
+    "rule5": "Use font weights strategically: 400 for body, 600+ for headings.",
+    "rule6": "Apply responsive font sizes: smaller on mobile, larger on desktop.",
+    "rule7": "Preserve typographic hierarchy: do not skip heading levels.",
+    "rule8": "Use Poppins only if specifically needed for branding (secondary).",
+    "rule9": "Avoid very small fonts (<12px) for body text.",
+    "rule10": "Use monospace fonts only for code blocks and technical content."
+  },
+
+  "accessibility": {
+    "readability": {
+      "minimumFontSize": "12px",
+      "maximumLineLength": "80 characters",
+      "minimumLineHeight": "1.4",
+      "minimumContrast": "4.5:1"
+    },
+    "wcagCompliance": {
+      "A": "Compliance",
+      "AA": "Compliance with recommended contrast",
+      "AAA": "Compliance with enhanced contrast"
+    }
+  },
+
+  "resources": {
+    "googleFonts": "https://fonts.google.com/",
+    "fontSizeCalculator": "https://www.modularscale.com/",
+    "contrastChecker": "https://webaim.org/resources/contrastchecker/",
+    "brandGuide": "docs/brand-guidelines.md"
+  }
+}
