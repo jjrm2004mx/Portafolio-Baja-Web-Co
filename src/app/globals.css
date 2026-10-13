@@ -6,6 +6,11 @@
   @apply transition-colors duration-200;
 }
 
+html,
+body {
+  overflow-x: clip; /* evita que los fondos decorativos desborden en celular */
+}
+
 html {
   scroll-behavior: smooth;
 }
