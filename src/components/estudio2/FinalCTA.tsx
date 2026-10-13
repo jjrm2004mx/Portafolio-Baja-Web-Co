@@ -20,7 +20,7 @@ export default function FinalCTA() {
                 menos de 24 horas.
               </p>
               <a
-                href="https://wa.me/525512345678?text=Hola%2C%20me%20interesa%20cotizar%20una%20p%C3%A1gina%20web"
+                href="https://wa.me/6642183521?text=Hola%2C%20me%20interesa%20cotizar%20una%20p%C3%A1gina%20web"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-4 bg-[#25D366] hover:bg-[#1fba57] text-white font-semibold rounded-full shadow-lg transition-all duration-300 hover:scale-105"

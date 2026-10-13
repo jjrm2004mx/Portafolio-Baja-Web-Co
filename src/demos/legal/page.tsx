@@ -69,7 +69,7 @@ export default function LegalPage() {
               <h4 className="font-semibold mb-4 text-[#C9A227]" style={{ fontFamily: 'IBM Plex Sans' }}>¿Necesitas Ayuda Legal?</h4>
               <div className="p-4 bg-white/10 rounded-lg">
                 <p className="text-sm text-white/90 mb-2" style={{ fontFamily: 'IBM Plex Sans' }}>Llámanos ahora</p>
-                <a href="tel:+525512345678" className="text-[#C9A227] font-semibold">(55) 1234-5678</a>
+                <a href="tel:+6642183521" className="text-[#C9A227] font-semibold">(55) 1234-5678</a>
               </div>
             </div>
           </div>
